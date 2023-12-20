@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    android:background="@drawable/contraaa"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:text="Contract information"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/contt"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/contactus"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+
+    <LinearLayout
+       android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+        <TextView
+
+            android:text="Company number : 📲 +966565052007"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/company"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <TextView
+
+            android:text="Company Email : 📨 alsafwaalasryah@gmail.com"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/company"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+
+            android:text="Company Email : 📨 ahmed000alghamdi@gmail.com"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:background="@drawable/company"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        app:lottie_rawRes="@raw/contactenim"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+
+
+
+</LinearLayout>

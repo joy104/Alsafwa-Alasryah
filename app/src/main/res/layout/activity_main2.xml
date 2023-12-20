@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backkk"
+    android:padding="5dp"
+    tools:context=".MainActivity2">
+
+
+
+
+    <TextView
+        android:text="Company Information"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <TextView
+        android:text="Company name : Alsafwa Alasryah"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/company"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:text="For General Contracting"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+       android:paddingLeft="10dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:background="@drawable/company"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:text="Owner name : Ahmed Al - Ghamdi"
+        android:background="@drawable/company"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:text="General Manager"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:textStyle="italic"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/company"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@drawable/note"
+        android:padding="6dp"
+        android:layout_marginTop="6dp"
+        android:text="Alsafwa Alasryah trusted company. this company can help you build your dream house. trusting in Allah you can deal with the company now."
+        android:layout_width="match_parent"
+        android:layout_height="150dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/alsaffffff"
+            android:layout_width="187dp"
+            android:layout_height="187dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            app:lottie_rawRes="@raw/conpny"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
